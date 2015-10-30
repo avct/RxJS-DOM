@@ -454,7 +454,7 @@
     }
 
     if (!settings.crossDomain && !settings.headers['X-Requested-With']) {
-      settings.headers['X-Requested-With'] = 'XMLHttpRequest';
+      //settings.headers['X-Requested-With'] = 'XMLHttpRequest';
     }
     settings.hasContent = settings.body !== undefined;
 
